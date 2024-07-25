@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #ff9211;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.icon-container{
+    display: flex;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 180px;
+}
+.bitcoin-icon{
+    width: 100px;
+    height: 100px;
+    opacity: 30%;
+}
+.core-icon{
+    width: 100px;
+    height: 100px;
+    opacity: 30%;
+}
+.cryptoed-icon{
+    width: 100px;
+    height: 46px;
+    top: 26px;
+}
+.cryptoed-container{
+    margin-right: 100px;
+}
+.course-container{
+    margin-left: 100px; 
+}
+main{
+    padding-top: 100px;
+    font-family: "itim", cursive;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    justify-content: center;
+    background-color: #fff;
+}
