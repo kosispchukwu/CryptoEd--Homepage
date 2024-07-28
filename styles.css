@@ -9,35 +9,33 @@ header{
     position: fixed;
     top: 0;
 }
-.icon-container{
-    display: flex;
-}
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 180px;
+    margin-right: 300px;
 }
-.bitcoin-icon{
-    width: 100px;
+.icon-container{
+    display: flex;
+}
+#bitcoin-icon, #core-icon{
+    width: 150px;
     height: 100px;
-    opacity: 30%;
 }
-.core-icon{
-    width: 100px;
-    height: 100px;
-    opacity: 30%;
-}
-.cryptoed-icon{
-    width: 100px;
-    height: 46px;
-    top: 26px;
-}
-.cryptoed-container{
+#cryptoed-icon{
     margin-right: 100px;
 }
-.course-container{
-    margin-left: 100px; 
+#courses-icon{
+    margin-left: 100px;
+}
+#help-icon{
+    margin-left: 20px;
+}
+#cart-icon{
+    margin-left: 10px;
+}
+#profile-icon{
+    margin-left: 10px;
 }
 main{
     padding-top: 100px;
